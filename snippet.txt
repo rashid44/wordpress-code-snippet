@@ -1,0 +1,5 @@
+# Return author name inside the loop
+get_the_author()
+
+# Get author all posts link inside the loop
+get_author_posts_url( get_the_author_meta( 'ID' ) )
